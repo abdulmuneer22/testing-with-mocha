@@ -1,0 +1,33 @@
+{
+  "name": "whats-my-user-agent",
+  "version": "0.0.0",
+  "description": "Testing Express Apps with SuperTest",
+  "main": "app.js",
+  "private": true,
+  "directories": {
+    "start": "node app",
+    "test": "test"
+  },
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "cheerio": "^0.20.0",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chirgjn/testing-with-mocha.git"
+  },
+  "author": "Chirag Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chirgjn/testing-with-mocha/issues"
+  },
+  "homepage": "https://github.com/chirgjn/testing-with-mocha#readme"
+}
