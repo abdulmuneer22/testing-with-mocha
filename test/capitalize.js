@@ -32,4 +32,10 @@ describe('capitalize', function() {
 		expect(capitalize('Evan')).to.equal('Evan');
 		expect(capitalize('Catman')).to.equal('Catman');
 	});
+
+	it('capitalizes String objects without changing their values', function() {
+		var str = new String('who is JavaScript?');
+		expect(capitalize(str)).to.equal('Who is javascript?');
+		expect(str.valueOf()).to.equal('who is JavaScript?');
+	});
 });
