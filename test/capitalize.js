@@ -42,4 +42,8 @@ describe('capitalize', function() {
 	it('throws an error if passed a number', function() {
 		expect(function() { capitalize(123); }).to.throw(Error);
 	});
+
+	it('changes the value', function() {
+		expect(capitalize('foo')).not.to.equal('foo');
+	});
 });
