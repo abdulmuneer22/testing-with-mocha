@@ -1,0 +1,24 @@
+{
+  "name": "testing-with-mocha",
+  "version": "0.0.0",
+  "description": "Demo to display testing of Node/Express app with Mocha",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chirgjn/testing-with-mocha.git"
+  },
+  "author": "Chirag Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chirgjn/testing-with-mocha/issues"
+  },
+  "homepage": "https://github.com/chirgjn/testing-with-mocha#readme"
+}
